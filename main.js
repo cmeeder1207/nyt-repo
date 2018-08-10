@@ -45,4 +45,3 @@ function getArticles(search, begin, end, num) {
 
 // NOTES
 // --------------------
-//
