@@ -5,20 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>NYT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src=“https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js“></script>
     <script src="main.js"></script>
 </head>
 <body>
     <div class="wrapper">
-            <div class="jumbotron">
+
+        <div class="container shadow-none p-3 mb-5 bg-light rounded">
+            <div class="jumbotron jumbotron">
                     <div class="container">
-                      <h1 class="display-4">NYT</h1>
+                      <h2 class="display-4 "><span class="fas fa-newspaper"></span>NYT</h2>
                      
                     </div>
                   </div>
-    <form class="searchBody">
-            <div class="form-group shadow-none p-3 mb-5 bg-light rounded">
+        </div>
+    <div class="container  shadow-none p-3 mb-5 bg-light rounded">
+        <form class="searchBody">
+            <div class="form-group">
+                <h1>Search</h1>
               <label for="searchTerm">Search</label>
               <input type="text" class="form-control" id="searchTerm"  placeholder="Enter Search">
              
@@ -29,18 +36,22 @@
                     
                   </div>
                   <div class="form-group">
-                        <label for="startYear">Search</label>
+                        <label for="startYear">Start Year</label>
                         <input type="text" class="form-control" id="Start Year"  placeholder="YYYY/MM/DD">
                         
                       </div>
                       <div class="form-group">
-                            <label for="endYear">Search</label>
+                            <label for="endYear">End Year</label>
                             <input type="text" class="form-control" id="endYear"  placeholder="YYYY/MM/DD">
                             
                           </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
-    <div class=content></div>
+        </div>
+    <div class="container shadow-none p-3 mb-5 bg-light rounded">
+        <h1>TEst</h1>
+        <p>Lorum</p>
+    </div>
 
 </div>
 </body>
